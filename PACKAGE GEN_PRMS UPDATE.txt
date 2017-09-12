@@ -1,0 +1,129 @@
+<?xml version="1.0"?>                                                   
+<service name="PACKAGE">                                                
+ <scope name="GEN_PRMS">                                                
+  <message name="UPDATE">                                               
+   <header>                                                             
+    <subsys>Z</subsys>                                                  
+    <test> </test>                                                      
+    <product>CMN</product>                                              
+   </header>                                                            
+  <request>                                                             
+    <package>          </package>                                       
+    <packageLevel> </packageLevel>                                      
+    <packageType> </packageType>                                        
+    <reasonCode>   </reasonCode>                                        
+    <complexSuperPackage>          </complexSuperPackage>               
+    <requestorDept>    </requestorDept>                                 
+    <requestorName>                         </requestorName>            
+    <requestorPhone>               </requestorPhone>                    
+    <workChangeRequest>            </workChangeRequest>                 
+    <packageTitle>                                       </packageTitle>
+    <schedulerType> </schedulerType>                                    
+    <tempChangeDuration>   </tempChangeDuration>                        
+    <problemActionCode> </problemActionCode>                            
+    <otherProblemAction>                           </otherProblemAction>
+    <packageStatus> </packageStatus>                                    
+    <nearestInstallDate>        </nearestInstallDate>                   
+    <dateCreated>        </dateCreated>                                 
+    <timeCreated>      </timeCreated>                                   
+    <dateFrozen>        </dateFrozen>                                   
+    <timeFrozen>      </timeFrozen>                                     
+    <dateApproved>        </dateApproved>                               
+    <timeApproved>      </timeApproved>                                 
+    <dateRejected>        </dateRejected>                               
+    <timeRejected>      </timeRejected>                                 
+    <dateSent>        </dateSent>                                       
+    <timeSent>      </timeSent>                                         
+    <dateReceived>        </dateReceived>                               
+	<timeReceived>      </timeReceived>                       
+    <dateInstalled>        </dateInstalled>                   
+    <timeInstalled>      </timeInstalled>                     
+    <dateBaselined>        </dateBaselined>                   
+    <timeBaselined>      </timeBaselined>                     
+    <dateBackedOut>        </dateBackedOut>                   
+    <timeBackedOut>      </timeBackedOut>                     
+    <dateReverted>        </dateReverted>                     
+    <timeReverted>      </timeReverted>                       
+    <creator>        </creator>                               
+    <lastPromotionSite>        </lastPromotionSite>           
+    <lastPromotionName>        </lastPromotionName>           
+    <lastPromotionLevel>  </lastPromotionLevel>               
+    <lastPromotionDate>        </lastPromotionDate>           
+    <lastPromotionTime>      </lastPromotionTime>             
+    <lastPromoter>        </lastPromoter>                     
+    <lastPromotionAction> </lastPromotionAction>              
+    <isPostApprovalPending> </isPostApprovalPending>          
+    <isPostApproversAdded> </isPostApproversAdded>            
+    <isPostRejected> </isPostRejected>                        
+    <isShortApproverListUsed> </isShortApproverListUsed>      
+    <dateTempChangeCycled>        </dateTempChangeCycled>     
+    <timeTempChangeCycled>      </timeTempChangeCycled>       
+    <auditReturnCode>  </auditReturnCode>                     
+    <isStageLibsDeleted> </isStageLibsDeleted>                
+    <isLinkedPackage> </isLinkedPackage>                      
+    <isCmnSchedulerUsed> </isCmnSchedulerUsed>                
+    <isManualSchedulerUsed> </isManualSchedulerUsed>          
+    <isOtherSchedulerUsed> </isOtherSchedulerUsed>            
+    <isAuditPending> </isAuditPending>                        
+    <isFreezePending> </isFreezePending>                      
+    <isApprovalPending> </isApprovalPending>                  
+    <isXNodeBuildRequired> </isXNodeBuildRequired>            
+    <isInstallPending> </isInstallPending>                    
+    <isRevertPending> </isRevertPending>                      
+    <isReverseRippleSubmitted> </isReverseRippleSubmitted>    
+    <isBackedOut> </isBackedOut>                              
+    <isXNodeBuildPending> </isXNodeBuildPending>              
+	<generalComponentStatus> </generalComponentStatus>                  
+    <nonSourceComponentStatus> </nonSourceComponentStatus>              
+    <sourceLoadComponentStatus> </sourceLoadComponentStatus>            
+    <utilityInfoStatus> </utilityInfoStatus>                            
+    <siteInfoStatus> </siteInfoStatus>                                  
+    <customComponentStatus> </customComponentStatus>                    
+    <stageDevLibModel>                                </stageDevLibModel
+    <stageProdLibModel>                                </stageProdLibMod
+    <stageLibStatus> </stageLibStatus>                                  
+    <dateMemoDeleted>        </dateMemoDeleted>                         
+    <timeMemoDeleted>      </timeMemoDeleted>                           
+    <installTimeExpiration>    </installTimeExpiration>                 
+    <lastRevertUserid>        </lastRevertUserid>                       
+    <lastBackoutUserid>        </lastBackoutUserid>                     
+    <auditLockUserid>        </auditLockUserid>                         
+    <stageDevHfsModel>                               </stageDevHfsModel>
+    <stageProdHfsModel>                             </stageProdHfsModel>
+   </request>                                                           
+  </message>                                                            
+ </scope>                                                               
+</service>             
+
+
+Ejemplo de salida:
+-------------------
+
+<?xml version="1.0"?>                                                   
+<service name="PACKAGE">                                                
+ <scope name="GEN_PRMS">                                                
+  <message name="UPDATE">                                               
+   <response>                                                           
+    <statusMessage>CMN8700I - UPDATE   Package service completed</statusMessage>
+    <statusReturnCode>00</statusReturnCode>                             
+    <statusReasonCode>8700</statusReasonCode>                           
+   </response>                                                          
+  </message>                                                            
+ </scope>                                                               
+</service>   
+
+Otro Ejemplo de salida:
+-----------------------    
+
+<?xml version="1.0"?>                                                   
+<service name="PACKAGE">                                                
+ <scope name="GEN_PRMS">                                                
+  <message name="UPDATE">                                               
+   <response>                                                           
+    <statusMessage>CMN1010A - PL$ 990319 does not exist in the package master</statusMessage>
+    <statusReturnCode>08</statusReturnCode>                             
+    <statusReasonCode>1010</statusReasonCode>                           
+   </response>                                                          
+  </message>                                                            
+ </scope>                                                               
+</service>                                                                                                                                                                      

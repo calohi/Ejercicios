@@ -1,0 +1,110 @@
+<?xml version="1.0"?>              
+<service name="PACKAGE">           
+ <scope name="GEN_PRMS">           
+  <message name="LIST">            
+   <header>                        
+    <subsys>Z</subsys>             
+    <product>CMN</product>         
+   </header>                       
+  <request>                        
+    <package>PL$ 000319</package>  
+   </request>                      
+  </message>                       
+ </scope>                          
+</service>        
+
+
+cambio cg
+
+<?xml version="1.0"?>                                            
+<service name="PACKAGE">                                         
+ <scope name="GEN_PRMS">                                         
+  <message name="LIST">                                          
+   <result>                                                      
+    <package>PL$ 000319</package>                                
+    <applName>PL$</applName>                                     
+    <packageId>000319</packageId>                                
+    <packageLevel>1</packageLevel>                               
+    <packageType>1</packageType>                                 
+    <packageStatus>8</packageStatus>                             
+    <dateCreated>20170621</dateCreated>                          
+    <timeCreated>114832</timeCreated>                            
+    <dateFrozen>20170623</dateFrozen>                            
+    <timeFrozen>134456</timeFrozen>                              
+    <dateReverted>20170623</dateReverted>                        
+    <timeReverted>134226</timeReverted>                          
+    <requestorDept>3</requestorDept>                             
+    <requestorName>a</requestorName>                             
+    <requestorPhone>A</requestorPhone>                           
+    <workChangeRequest>NOCLARITY *</workChangeRequest>           
+    <packageTitle>paquete Jcl falla audit</packageTitle>         
+    <creator>Y767726</creator>                                   
+    <lastPromotionSite>TESTUK1</lastPromotionSite>               
+    <lastPromotionName>TESTACCE</lastPromotionName>              
+    <lastPromotionLevel>40</lastPromotionLevel>                  
+    <lastPromotionDate>20170623</lastPromotionDate>              
+    <lastPromotionTime>134117</lastPromotionTime>                
+    <lastPromoter>Y767726</lastPromoter>                         
+    <lastPromotionAction>6</lastPromotionAction>                 
+    <schedulerType>2</schedulerType>                             
+    <isPostApprovalPending>N</isPostApprovalPending>             
+    <isPostApproversAdded>N</isPostApproversAdded>               
+    <isPostRejected>N</isPostRejected>                           
+    <isShortApproverListUsed>N</isShortApproverListUsed>         
+    <auditReturnCode>00</auditReturnCode>                        
+    <tempChangeDuration>000</tempChangeDuration>                 
+    <isStageLibsDeleted>N</isStageLibsDeleted>                          
+    <isLinkedPackage>N</isLinkedPackage>                                
+    <isCmnSchedulerUsed>N</isCmnSchedulerUsed>                          
+    <isManualSchedulerUsed>Y</isManualSchedulerUsed>                    
+    <isOtherSchedulerUsed>N</isOtherSchedulerUsed>                      
+    <isAuditPending>N</isAuditPending>                                  
+    <isFreezePending>N</isFreezePending>                                
+    <isApprovalPending>N</isApprovalPending>                            
+    <isXNodeBuildRequired>Y</isXNodeBuildRequired>                      
+    <isInstallPending>N</isInstallPending>                              
+    <isRevertPending>N</isRevertPending>                                
+    <isReverseRippleSubmitted>N</isReverseRippleSubmitted>              
+    <isBackedOut>N</isBackedOut>                                        
+    <isXNodeBuildPending>N</isXNodeBuildPending>                        
+    <generalComponentStatus>4</generalComponentStatus>                  
+    <nonSourceComponentStatus>4</nonSourceComponentStatus>              
+    <sourceLoadComponentStatus>4</sourceLoadComponentStatus>            
+    <utilityInfoStatus>4</utilityInfoStatus>                            
+    <siteInfoStatus>4</siteInfoStatus>                                  
+    <customComponentStatus>4</customComponentStatus>                    
+    <nearestInstallDate>20190222</nearestInstallDate>                   
+    <problemActionCode>1</problemActionCode>                            
+    <stageDevLibModel>STAGE.PL$.Ñ000319D</stageDevLibModel>             
+    <stageProdLibModel>STAGE.PL$.Ñ000319D</stageProdLibModel>           
+    <stageLibStatus>2</stageLibStatus>                                  
+    <installTimeExpiration>2222</installTimeExpiration>                 
+    <packageCheckedIntoRelease>N</packageCheckedIntoRelease>            
+    <lastRevertUserid>Y767726</lastRevertUserid>                        
+    <stageDevHfsModel>/TSD1/cmnstage/cmnz/PL$/Ñ000319D/d</stageDevHfsModel>
+    <stageProdHfsModel>/TSP1/cmnstage/cmnq/PL$/Ñ000319D/d</stageProdHfsModel>
+   </result>                                                            
+   <response>                                                           
+    <statusMessage>CMN8700I - LIST     Package service completed</status
+    <statusReturnCode>00</statusReturnCode>                             
+    <statusReasonCode>8700</statusReasonCode>                           
+   </response>                                                          
+  </message>                                                            
+ </scope>                                                               
+</service> 
+
+Otro ejemplo de salida:
+-----------------------
+
+<?xml version="1.0"?>                                                   
+<service name="PACKAGE">                                                
+ <scope name="GEN_PRMS">                                                
+  <message name="LIST">                                                 
+   <response>                                                           
+    <statusMessage>CMN1010A - PL$ 900319 does not exist in the package master</statusMessage>
+    <statusReturnCode>08</statusReturnCode>                             
+    <statusReasonCode>1010</statusReasonCode>                           
+   </response>                                                          
+  </message>                                                            
+ </scope>                                                               
+</service>                                                              

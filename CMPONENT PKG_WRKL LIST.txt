@@ -1,0 +1,96 @@
+<?xml version="1.0"?>                                                   
+<service name="CMPONENT">                                               
+ <scope name="PKG_WRKL">                                                
+  <message name="LIST">                                                 
+   <header>                                                             
+    <subsys>Z</subsys>                                                  
+    <test> </test>                                                      
+    <product>CMN</product>                                              
+   </header>                                                            
+  <request>                                                             
+    <package>          </package>                                       
+    <component>                                             </component>
+    <componentType>   </componentType>                                  
+    <updater>        </updater>                                         
+   </request>                                                           
+  </message>                                                            
+ </scope>                                                               
+</service>    
+
+cambio CG 1                                                          
+
+
+<?xml version="1.0"?>                              
+<service name="CMPONENT">                          
+ <scope name="PKG_WRKL">                           
+  <message name="LIST">                            
+   <result>                                        
+    <package>PL$ 000319</package>                  
+    <applName>PL$</applName>                       
+    <packageId>000319</packageId>                  
+    <component>JAB8727D</component>                
+    <componentType>JCL</componentType>             
+    <updater>Y767726</updater>                     
+    <lastAction>9</lastAction>                     
+    <setssi>6C1A5585</setssi>                      
+    <updateDate>20170621</updateDate>              
+    <updateTime>115237</updateTime>                
+    <useCount>0004</useCount>                      
+    <isComponentDeleted>N</isComponentDeleted>     
+    <mostRecentUpdate>Y</mostRecentUpdate>         
+   </result>                                       
+   <result>                                        
+    <package>PL$ 000319</package>                  
+    <applName>PL$</applName>                       
+    <packageId>000319</packageId>                  
+    <component>JAB9320D</component>                
+    <componentType>JCL</componentType>             
+    <updater>Y767726</updater>                     
+    <lastAction>9</lastAction>                     
+    <setssi>6C1D1285</setssi>                      
+    <updateDate>20170623</updateDate>              
+    <updateTime>134333</updateTime>                
+    <useCount>0003</useCount>                      
+    <isComponentDeleted>N</isComponentDeleted>     
+    <mostRecentUpdate>Y</mostRecentUpdate>         
+   </result>                                       
+      <result>                                                         
+    <package>PL$ 000319</package>                                   
+    <applName>PL$</applName>                                        
+    <packageId>000319</packageId>                                   
+    <component>AB0001B</component>                                  
+    <componentType>PRC</componentType>                              
+    <updater>Y767726</updater>                                      
+    <lastAction>4</lastAction>                                      
+    <setssi>6C1CE118</setssi>                                       
+    <updateDate>20170623</updateDate>                               
+    <updateTime>101240</updateTime>                                 
+    <useCount>0002</useCount>                                       
+    <isComponentDeleted>Y</isComponentDeleted>                      
+    <mostRecentUpdate>Y</mostRecentUpdate>                          
+   </result>                                                        
+   <response>                                                       
+    <statusMessage>CMN8700I - LIST service completed</statusMessage>
+    <statusReturnCode>00</statusReturnCode>                         
+    <statusReasonCode>8700</statusReasonCode>                       
+   </response>                                                      
+  </message>                                                        
+ </scope>                                                           
+</service>                                                          
+
+
+otro ejemplo de salida:
+-----------------------
+
+<?xml version="1.0"?>                                                   
+<service name="CMPONENT">                                               
+ <scope name="PKG_WRKL">                                                
+  <message name="LIST">                                                 
+   <response>                                                           
+    <statusMessage>CMN6504I - No information found for this request.</statusMessage>
+    <statusReturnCode>08</statusReturnCode>                             
+    <statusReasonCode>6504</statusReasonCode>                           
+   </response>                                                          
+  </message>                                                            
+ </scope>                                                               
+</service>                                                              

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>             
+<service name="PACKAGE">          
+ <scope name="USR_RECS">          
+  <message name="MDELETE">        
+   <header>                       
+    <subsys>Z</subsys>            
+    <test> </test>                
+    <product>CMN</product>        
+   </header>                      
+  <request>                       
+    <package>          </package> 
+   </request>                     
+  </message>                      
+ </scope>                         
+</service>                        
+
+
+cabio CG
+
+<?xml version="1.0"?>                                                   
+<service name="PACKAGE">                                                
+ <scope name="USR_RECS">                                                
+  <message name="MDELETE">                                              
+   <response>                                                           
+    <statusMessage>CMN8700I - MDELETE  User record service completed</statusMessage>
+    <statusReturnCode>00</statusReturnCode>                             
+    <statusReasonCode>8700</statusReasonCode>                           
+   </response>                                                          
+  </message>                                                            
+ </scope>                                                               
+</service>                                                              
+
+
+Otro ejemplo, en este caso no ha encontrado registros para borrar:
+------------------------------------------------------------------
+<?xml version="1.0"?>                                                   
+<service name="PACKAGE">                                                
+ <scope name="USR_RECS">                                                
+  <message name="MDELETE">                                              
+   <response>                                                           
+    <statusMessage>CMN8383I - Package user record not found in package master</statusMessage>
+    <statusReturnCode>08</statusReturnCode>                             
+    <statusReasonCode>8383</statusReasonCode>                           
+   </response>                                                          
+  </message>                                                            
+ </scope>                                                               
+</service>                                                              

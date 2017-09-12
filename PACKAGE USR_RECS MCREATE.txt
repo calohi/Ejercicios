@@ -1,0 +1,87 @@
+<?xml version="1.0"?>                  
+<service name="PACKAGE">               
+ <scope name="USR_RECS">               
+  <message name="MCREATE">             
+   <header>                            
+    <subsys>Z</subsys>                 
+    <test> </test>                     
+    <product>CMN</product>             
+   </header>                           
+  <request>                            
+    <package>          </package>      
+    <userVarLen101> </userVarLen101>   
+    <userVarLen102> </userVarLen102>   
+    <userVarLen103> </userVarLen103>   
+    <userVarLen104> </userVarLen104>   
+    <userVarLen105> </userVarLen105>   
+    <userVarLen106> </userVarLen106>   
+    <userVarLen107> </userVarLen107>   
+    <userVarLen108> </userVarLen108>   
+    <userVarLen109> </userVarLen109>   
+    <userVarLen110> </userVarLen110>   
+    <userVarLen111> </userVarLen111>   
+    <userVarLen112> </userVarLen112>   
+    <userVarLen113> </userVarLen113>   
+    <userVarLen114> </userVarLen114>   
+    <userVarLen115> </userVarLen115>   
+    <userVarLen199> </userVarLen199>   
+    <userVarLen201>  </userVarLen201>  
+    <userVarLen202>  </userVarLen202>  
+    <userVarLen203>  </userVarLen203>  
+    <userVarLen204>  </userVarLen204>  
+    <userVarLen205>  </userVarLen205>  
+    <userVarLen206>  </userVarLen206>  
+    <userVarLen207>  </userVarLen207>  
+    <userVarLen208>  </userVarLen208>  
+    <userVarLen209>  </userVarLen209>  
+    <userVarLen210>  </userVarLen210>  
+	<userVarLen211>  </userVarLen211>                                   
+    <userVarLen301>   </userVarLen301>                                  
+    <userVarLen302>   </userVarLen302>                                  
+    <userVarLen303>   </userVarLen303>                                  
+    <userVarLen304>   </userVarLen304>                                  
+    <userVarLen305>   </userVarLen305>                                  
+    <userVarLen306>   </userVarLen306>                                  
+    <userVarLen307>   </userVarLen307>                                  
+    <userVarLen308>   </userVarLen308>                                  
+    <userVarLen309>   </userVarLen309>                                  
+    <userVarLen310>   </userVarLen310>                                  
+    <userVarLen401>    </userVarLen401>                                 
+    <userVarLen402>    </userVarLen402>                                 
+    <userVarLen403>    </userVarLen403>                                 
+    <userVarLen404>    </userVarLen404>                                 
+    <userVarLen405>    </userVarLen405>                                 
+    <userVarLen406>    </userVarLen406>                                 
+    <userVarLen407>    </userVarLen407>                                 
+    <userVarLen408>    </userVarLen408>                                 
+    <userVarLen409>    </userVarLen409>                                 
+    <userVarLen410>    </userVarLen410>                                 
+    <userVarLen801>        </userVarLen801>                             
+    <userVarLen802>        </userVarLen802>                             
+    <userVarLen803>        </userVarLen803>                             
+    <userVarLen804>        </userVarLen804>                             
+    <userVarLen805>        </userVarLen805>                             
+    <userVarLen806>        </userVarLen806>                             
+    <userVarLen807>        </userVarLen807>                             
+    <userVarLen808>        </userVarLen808>                             
+    <userVarLen809>        </userVarLen809>                             
+    <userVarLen810>        </userVarLen810>                             
+    <userVarLen1601>                </userVarLen1601>                   
+    <userVarLen1602>                </userVarLen1602>                   
+    <userVarLen1603>                </userVarLen1603>                   
+    <userVarLen1604>                </userVarLen1604>                   
+    <userVarLen1605>                </userVarLen1605>                   
+    <userVarLen4401>                                   </userVarLen4401>
+    <userVarLen4402>                                   </userVarLen4402>
+    <userVarLen4403>                                   </userVarLen4403>
+    <userVarLen4404>                                   </userVarLen4404>
+    <userVarLen4405>                                   </userVarLen4405>
+    <userVarLen7201>                                   </userVarLen7201>
+    <userVarLen7202>                                   </userVarLen7202>
+    <userVarLen7203>                                   </userVarLen7203>
+    <userVarLen7204>                                   </userVarLen7204>
+    <userVarLen7205>                                   </userVarLen7205>
+   </request>                                                           
+  </message>                                                            
+ </scope>                                                               
+</service>                                                              
