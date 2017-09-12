@@ -1,3 +1,4 @@
+Modificado en Repo remoto
 <?xml version="1.0"?>                                                   
 <service name="CMPONENT">                                               
  <scope name="PKG_WRKL">                                                
